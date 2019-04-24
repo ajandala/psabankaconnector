@@ -4,8 +4,6 @@ import com.convidad.bankA.client.BankAClient;
 import com.convidad.bankA.common.dto.Payment;
 import com.convidad.client.TrackerClient;
 import com.convidad.dto.PaymentDTO;
-import com.google.common.collect.ArrayListMultimap;
-import com.google.common.collect.Multimap;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

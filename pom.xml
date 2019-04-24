@@ -12,6 +12,8 @@
         <org.springboot.version>2.0.1.RELEASE</org.springboot.version>
         <swagger.version>2.9.2</swagger.version>
         <spring.cloud.feign.version>2.0.2.RELEASE</spring.cloud.feign.version>
+        <mockito.version>2.27.0</mockito.version>
+        <junit.version>4.12</junit.version>
     </properties>
 
     <dependencies>
@@ -34,6 +36,24 @@
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-openfeign</artifactId>
             <version>${spring.cloud.feign.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.mockito</groupId>
+            <artifactId>mockito-core</artifactId>
+            <version>${mockito.version}</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>${junit.version}</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-test</artifactId>
+            <version>${org.springboot.version}</version>
+            <scope>test</scope>
         </dependency>
     </dependencies>
 
